@@ -110,5 +110,15 @@ public class HelloWorld {
         }
 */
 
+    //CH 6: CLASSES
+
+    Triangle triangleA = new Triangle(15,8,15,8,17);
+    Triangle triangleB = new Triangle(3,2.598,3,3,3);
+
+    double triangleAArea = triangleA.findArea();
+    double triangleBArea = triangleB.findArea();
+
+    System.out.println("The area of triangle A is: " + triangleAArea);
+    System.out.println("The area of triangle B is: " + triangleBArea);
     }
 }
