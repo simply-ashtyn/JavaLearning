@@ -1,11 +1,10 @@
-//LinkedIn Learning
 //Learning Java 11
 
 public class HelloWorld {
     public static void main(String[] args)
     {
-        System.out.println("Java Basics Class");
-
+        //BASIC DATA TYPES
+/*
         int studentAge = 17;
         double studentGPA = 3.4;
         boolean hasPerfectAttendance = false;
@@ -20,5 +19,46 @@ public class HelloWorld {
         System.out.println("Student Name: " + studentFullName);
 
         System.out.println(studentFullName + " has a GPA of " + studentGPA);
+        System.out.println("What do you want to update the GPA to?");
+
+        Scanner input = new Scanner(System.in);
+        studentGPA = input.nextDouble();
+
+        System.out.println(studentFullName + "has a new GPA of " + studentGPA);
+*/
+
+        //CONTROL FLOW STATEMENTS
+        //If statements
+
+     /*  System.out.println("Pick a number between 1 and 10.");
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        if(number < 5)
+        {
+            System.out.println("Enjoy the good luck a friend brings you.");
+        }
+        else
+        {
+            System.out.println("Your shoe selection will make you happy today.");
+        }
+
+        //While loops
+        boolean isCurrentSongOnRepeat = true;
+        Scanner input = new Scanner(System.in);
+
+        while (isCurrentSongOnRepeat) { 
+            System.out.println("Playing same song again...");
+            System.out.println("Would you like to take the song off repeat?");
+            String userInput = input.next();
+            if(userInput.equals("yes"))
+            {
+                isCurrentSongOnRepeat = false;
+            }
+        }
+
+        System.out.println("Playing next song");
+*/
+
+
     }
 }
